@@ -4,16 +4,16 @@ Migration Projects
 
 The Migration tab, which facilitates seamless data migration from local environments to supported remote platforms. This functionality is introduced following the creation of connectors and enables efficient file migration workflows.
 
-.. image:: https://share.sketchpad.app/25/a32-ecab-5d9562.png
+.. image:: _static/Migration/Migration_tab_page.png
    :width: 1000px
-   :alt: Migration Projects page Screenshot
+   :alt: Migration Tab page Screenshot
    :align: center
    :class: soft-edge
 
 
 Key Features
 """"""""""""
-Let’s walk through the Migration page and explore its key features.
+Let’s walk through the Migration Tab and explore its key features.
 
 Add Migration Project
 ^^^^^^^^^^^^^^^^^^^^^
@@ -23,7 +23,7 @@ Users can create a migration project through a guided three-step process:
 
     Define the migration name and description.
 
-    .. figure:: https://share.sketchpad.app/25/a02-cbf8-97d39c.png
+    .. figure:: _static/Migration/Migration_projects/general_info.png
        :width: 800px
        :alt: General Info Page Screenshot
        :align: center
@@ -37,7 +37,7 @@ Users can create a migration project through a guided three-step process:
     - **📂 File Path**: Choose from a predefined folder structure.
     - **📄 File Extension**: Specify the format of the source file.
 
-    .. figure:: https://share.sketchpad.app/25/dfe-0bd2-ad6d9f.png
+    .. figure:: _static/Migration/Migration_projects/source_setup.png
        :width: 800px
        :alt: Source Setup Page Screenshot
        :align: center
@@ -49,11 +49,15 @@ Users can create a migration project through a guided three-step process:
 
     **🔌 Remote Connection**: Select from previously created Snowflake connectors.
 
-    .. figure:: https://share.sketchpad.app/25/e6f-d233-7ef9e7.png
+    .. figure:: _static/Migration/Migration_projects/target_setup.png
        :width: 800px
        :alt: Target Setup Page Screenshot
        :align: center
        :class: soft-edge
+
+- **Refresh:** The Refresh function updates the projects view to reflect any recent changes, such as newly uploaded files. Clicking 'Refresh' ensures that the displayed projects list is current and accurate.
+
+- **Sort:** Allows sorting of migration projects in ascending or descending order, or by date (newest or oldest first).
 
 .. raw:: html
 
@@ -64,7 +68,7 @@ Users can create a migration project through a guided three-step process:
           Upon completion of the setup, a migration project card is generated. The card displays the project name, creator, source and target file platforms, along with options to view project details or delete the project.
         </div>
         <div style="flex: 1;">
-          <img src="https://share.sketchpad.app/25/2f3-f2d3-e9c8c8.png" alt="Migration Project Card" style="max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <img src="_static/Migration/Migration_project_card.png" alt="Migration Project Card Screenshot" style="max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         </div>
       </div>
     </div>
@@ -105,7 +109,7 @@ Create Object
 #############
 The Create Object feature enables the creation of migration objects by capturing key details such as Display Name, Description, and a customizable Object Name. 
 
-.. image:: https://share.sketchpad.app/25/ca7-a2ad-3a3a0c.png
+.. image:: _static/Migration/Migration_projects/create_migration_object.png
    :width: 500px
    :alt: Create Object Screenshot
    :align: center
@@ -123,7 +127,7 @@ This feature fetches, prepares, and organizes objects for migration. Once object
 
 **Column Mapping:**
 
-.. image:: https://share.sketchpad.app/25/15a-fe20-569b97.png
+.. image:: _static/Migration/Migration_projects/column_mapping.png
    :width: 800px
    :alt: Column Mapping page Screenshot
    :align: center
@@ -141,17 +145,19 @@ This feature fetches, prepares, and organizes objects for migration. Once object
 
 **DDL:** Displays the source file’s DDL statement, which can be copied or downloaded.
 
-.. image:: https://share.sketchpad.app/25/0db-05bd-dbc342.png
+.. image:: _static/Migration/Migration_projects/object_ddl_screenshot.png
    :width: 400px
-   :alt: DDL page Screenshot
+   :alt: Object DDL Screenshot
    :align: center
    :class: soft-edge
 
 **Migration Job:** Initiates the migration process for the selected object and executes the data transfer according to the configured settings.
 
-**Refresh:** The Refresh function updates the projects view to reflect any recent changes, such as newly uploaded files. Clicking **'Refresh'** ensures that the displayed projects list is current and accurate.
+Refresh
+########
 
-**Sort:** Allows sorting of migration projects in ascending or descending order, or by date (newest or oldest first).
+The Refresh function updates the projects view to reflect any recent changes, such as newly uploaded files. Clicking **'Refresh'** ensures that the displayed projects list is current and accurate.
+
 
 More
 ######
@@ -168,7 +174,7 @@ By clicking **"Run All DDLs"**, can generate the complete set of DDLs in one con
 
 The resulting DDLs can be copied to the clipboard or downloaded in both **.txt** and **.sql** file formats.
 
-.. image:: https://share.sketchpad.app/25/a07-e5ca-d946c8.png
+.. image:: _static/Migration/Migration_projects/more_screenshot.png
    :width: 500px
    :alt: More Option page Screenshot
    :align: center
