@@ -1,0 +1,21 @@
+/* Applies scroll only to the navigation section, not the logo/search */
+@media (min-width: 768px) {
+  .sidebar-tree {
+    overflow-y: auto;
+    max-height: calc(100vh - 160px); /* Adjust based on logo + search height */
+    padding-right: 4px;
+  }
+
+  /* Optional scrollbar styling */
+  .sidebar-tree::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .sidebar-tree::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+  }
+  .sidebar-tree::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+  }
+}

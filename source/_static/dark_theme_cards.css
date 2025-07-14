@@ -1,0 +1,35 @@
+/* === DARK THEME === */
+@media (prefers-color-scheme: dark) {
+  .sd-card {
+    background-color: var(--color-background-secondary) !important;
+    color: var(--color-foreground-primary) !important;
+    border: 1px solid var(--color-background-border) !important;
+  }
+
+  .sd-card .sd-card-header {
+    color: var(--color-foreground-primary) !important;
+  }
+
+  .sd-card p,
+  .sd-card li {
+    color: var(--color-foreground-secondary) !important;
+  }
+}
+
+/* === LIGHT THEME === */
+@media (prefers-color-scheme: light) {
+  .sd-card {
+    background-color: var(--color-background-secondary) !important;
+    color: var(--color-foreground-primary) !important;
+    border: 1px solid var(--color-background-border) !important;
+  }
+
+  .sd-card .sd-card-header {
+    color: var(--color-foreground-primary) !important;
+  }
+
+  .sd-card p,
+  .sd-card li {
+    color: var(--color-foreground-secondary) !important;
+  }
+}

@@ -1,0 +1,23 @@
+/* Force correct styling of sphinx-design cards in Furo dark mode */
+html[data-theme="dark"] .sd-card.sd-bg-white {
+  background-color: #1e1e1e !important;  /* dark gray background */
+  color: #f0f0f0 !important;             /* light text */
+  border-color: #333 !important;
+}
+
+html[data-theme="dark"] .sd-card.sd-bg-white .sd-card-header {
+  color: #ffffff !important; /* brighter header */
+}
+
+html[data-theme="dark"] .sd-card.sd-bg-white p,
+html[data-theme="dark"] .sd-card.sd-bg-white li {
+  color: #dddddd !important;
+}
+
+html[data-theme="dark"] .sd-card.sd-bg-white strong {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .sd-card.sd-bg-white a {
+  color: #58a6ff !important;
+}

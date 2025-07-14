@@ -1,0 +1,4 @@
+img.soft-edge {
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional for softer effect */
+}
