@@ -1,6 +1,7 @@
 ==============
 Merlin AI
 ==============
+
 MerlinAI is an AI assistant designed to help users ask questions and retrieve relevant information based on their context. It offers both global and project-specific assistance.
 
 .. image:: _static/Merlin_AI/Merlin_AI_tab.png

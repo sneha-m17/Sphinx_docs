@@ -76,9 +76,10 @@ Let's begin
 
 .. toctree::
    :maxdepth: 1
-   :caption: MERLINAI
+   :caption: MERLIN
 
    merlinai
+   insights
 
 .. toctree::
    :maxdepth: 1
