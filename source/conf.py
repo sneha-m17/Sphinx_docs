@@ -9,7 +9,7 @@
 project = 'SAS2PY'
 # copyright = '2025, vishnu'
 # author = 'vishnu'
-release = 'V3.1.2'
+release = 'v3.3.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
