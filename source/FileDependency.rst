@@ -18,46 +18,70 @@ To check file level lineage, navigate to **File Dependencies** section within th
 Status of Files
 """"""""""""""""
 
+- Select required project then we will find **Filter option** at right-hand of search bar which displays file status.
+
 .. image:: _static/File_dependency/status_file.png
    :width: 350px
    :alt: File Status Screenshot
    :align: center
    :class: soft-edge
 
-- Select required project then we will find **Filter option** at right-hand of search bar which displays file status.
+
 - File status refers to the current state or condition of a file.
 - They are often used to track the progress of files through a workflow.
 
 
-.. dropdown:: ✅ **To-do**
+.. grid:: 2
+   :gutter: 3
+   :margin: 2
 
-   - This status signifies that a file has been uploaded or identified but requires further action. 
-   - It could be waiting for review, analysis, or processing.
+   .. grid-item-card:: ✅ **To-do**
+      :shadow: md
+      :padding: 2
+      :text-align: left
 
-.. dropdown:: 🧠 **Analyzed**
+      - This status signifies that a file has been uploaded or identified but requires further action. 
+      - It could be waiting for review, analysis, or processing.
 
-   - This likely indicates that the file has undergone some form of analysis. 
-   - This could involve data extraction, validation checks, or other processing steps.
+   .. grid-item-card:: 🧠 **Analyzed**
+      :shadow: md
+      :padding: 2
+      :text-align: left
 
-.. dropdown:: 🔄 **Converted**
+      - This likely indicates that the file has undergone some form of analysis. 
+      - This could involve data extraction, validation checks, or other processing steps.
 
-   - This suggests the file has been transformed into a different format or structure.
-   - It might be converted to a format suitable for further analysis, reporting, or integration with other systems.
+   .. grid-item-card:: 🔄 **Converted**
+      :shadow: md
+      :padding: 2
+      :text-align: left
 
-.. dropdown:: ✅ **Validated**
+      - This suggests the file has been transformed into a different format or structure.
+      - It might be converted to a format suitable for further analysis, reporting, or integration with other systems.
 
-   - This status implies that the file's contents have been verified for accuracy and completeness.
-   - It ensures the data is reliable and usable for its intended purpose.
+   .. grid-item-card:: ✅ **Validated**
+      :shadow: md
+      :padding: 2
+      :text-align: left
 
-.. dropdown:: 🔍 **Reconciled**
+      - This status implies that the file's contents have been verified for accuracy and completeness.
+      - It ensures the data is reliable and usable for its intended purpose.
 
-   - This term often refers to resolving discrepancies or inconsistencies between the file data and other data sources.
-   - It might involve correcting errors or matching information.
+   .. grid-item-card:: 🔍 **Reconciled**
+      :shadow: md
+      :padding: 2
+      :text-align: left
 
-.. dropdown:: ✔️ **Accepted**
+      - This term often refers to resolving discrepancies or inconsistencies between the file data and other data sources.
+      - It might involve correcting errors or matching information.
 
-   - This status signifies that the file has been approved for its intended use. 
-   - It indicates the file has met all necessary criteria and can be used for further processing, reporting, or other actions.
+   .. grid-item-card:: ✔️ **Accepted**
+      :shadow: md
+      :padding: 2
+      :text-align: left
+
+      - This status signifies that the file has been approved for its intended use. 
+      - It indicates the file has met all necessary criteria and can be used for further processing, reporting, or other actions.
 
 
 Workflow
@@ -225,164 +249,166 @@ The command bar at the top of the workflow consists of the following -
    :align: center
    :class: soft-edge
 
-MerlinAI
-^^^^^^^^^^
+.. dropdown:: 🤖 **Merlin AI**
 
-MerlinAI is an advanced AI assistant designed to facilitate user queries and provide relevant information based on contextual needs. It offers both global and project-specific support.
+      - MerlinAI is an advanced AI assistant designed to facilitate user queries and provide relevant information based on contextual needs. 
+      - It offers both global and project-specific support.
 
-.. image:: /_static/File_dependency/Key_features/MerlinAI.png
-   :width: 150px
-   :alt: Merlin AI Screenshot
-   :align: center
-   :class: soft-edge
+      .. image:: /_static/File_dependency/Key_features/MerlinAI.png
+         :width: 150px
+         :alt: Merlin AI Screenshot
+         :align: center
+         :class: soft-edge
 
-File Layout
-^^^^^^^^^^^^^
+.. dropdown:: 📜 **Audit Log**
 
-Users can customize the layout based on the Algorithm, Direction, and Spacing settings.
+      This feature allows to view detailed logs related to the file, including information on execution, conversion, analysis, and other relevant activities, similar to the notifications.
 
-.. image:: /_static/File_dependency/Key_features/File_layout.png
-   :width: 400px
-   :alt: File Layout Screenshot
-   :align: center
-   :class: soft-edge
+      .. image:: https://share.sketchpad.app/25/648-89bb-20ed53.png
+         :width: 150px
+         :alt: Audit Log Screenshot
+         :align: center
+         :class: soft-edge
 
-- **Algorithm:** Users can choose from three algorithms to calculate the element layout
-    - Dagre
-    - D3 Hierarchy
-    - ELK
+.. dropdown:: 🗺️ **File Layout**
 
-- **Direction:** Users can define the flow direction of the layout. They are,
-    - TB: Top to Bottom
-    - LR: Left to Right
-    - BT: Bottom to Top
-    - RL: Right to Left
+      Users can customize the layout based on the Algorithm, Direction, and Spacing settings.
 
-- **Spacing:** Users can adjust the spacing between elements, using both horizontal and vertical spacing.
+      .. image:: /_static/File_dependency/Key_features/File_layout.png
+         :width: 400px
+         :alt: File Layout Screenshot
+         :align: center
+         :class: soft-edge
 
+      - **Algorithm**: Users can choose from three algorithms to calculate the element layout
+         - Dagre
+         - D3 Hierarchy
+         - ELK 
 
-Generate Project Documentation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      - **Direction**: Users can define the flow direction of the layout. They are,
+         - TB: Top to Bottom
+         - LR: Left to Right
+         - BT: Bottom to Top
+         - RL: Right to Left
 
-This provides the directory structure of a specific project where project documents get generated, ensuring the project path is easily accessible and can be copied.
-
-.. image:: /_static/File_dependency/Key_features/Generate_documentation.png
-   :width: 400px
-   :alt: Generate project Documentation Screenshot
-   :align: center
-   :class: soft-edge
-
-Regenerate Graph
-^^^^^^^^^^^^^^^^^
-
-This option allow users to recreate or refresh the workflow, eventually resetting it to its initial state.
-
-.. image:: /_static/File_dependency/Key_features/Regenerate_graph.png
-   :width: 400px
-   :alt: Regenerate Screenshot
-   :align: center
-   :class: soft-edge
-
-Save Graph
-^^^^^^^^^^
-
-This command enables users to save the current state of the workflow, preserving any changes or modifications made, by saving them to the database.
-
-Reset
-^^^^^^
-
-The reset option restores the workflow to its original state, undoing any changes made without saving them to the database.
-
-File Summary
-^^^^^^^^^^^^
-
-This feature provides a comprehensive overview of file statistics, including numerical data, block information, and file complexity. It also offers visual representations of these metrics through various graphs and charts.
-
-.. image:: /_static/File_dependency/File_summary/File_summary.png
-   :width: 200px
-   :alt: Summary Screenshot
-   :align: center
-   :class: soft-edge
-
-- File Stats
-    - **Code Lines:** This represents the total number of lines of code within the file or project. It gives an indication of the overall size and complexity of the codebase.
-    - **Total Blocks:** This refers to the number of logical units or sections within the code. These blocks could be functions, classes, or other structured code elements.
-
-- Block Stats
-    - **Processed Blocks:** This indicates the total number of code blocks that have been analyzed or executed.
-    - **Passed Blocks:** This shows the number of code blocks that have passed successfully without errors.
-    - **Errors:** This displays the number of errors encountered during the analysis or execution of the code blocks.
-    - **Failed Blocks:** This indicates the number of code blocks that have failed or encountered issues during processing.
-    - **Complexity:** This refers to a metric measuring the complexity of the code.
-
-.. note::
-
-    - Selecting a graph from the dropdown summary block displays the corresponding project data in a visual format.
-    
-Graphs
-=======
-
-It shows a list of available chart types that can be used to visualize data.
-
-.. image:: /_static/File_dependency/File_summary/Graph.png
-   :width: 200px
-   :alt: Graphs Screenshot
-   :align: center
-   :class: soft-edge    
+      - **Spacing**: Users can adjust the spacing between elements, using both horizontal and vertical spacing.
 
 
-**1. Pie Chart** 
+.. dropdown:: 📁 **Generate Project Documentation**
 
-- A circular chart divided into segments, representing different categories or values.
-- It is often used to show proportions or percentages of a whole.
+      This provides the directory structure of a specific project where project documents get generated, ensuring the project path is easily accessible and can be copied.
 
-.. image:: /_static/File_dependency/File_summary/Piechart.png
-   :width: 350px
-   :alt: Pie chart Screenshot
-   :align: center
-   :class: soft-edge
+      .. image:: /_static/File_dependency/Key_features/Generate_documentation.png
+         :width: 400px
+         :alt: Generate Documentation Screenshot
+         :align: center
+         :class: soft-edge
 
-**2. Bar Chart**
+.. dropdown:: 🔄 **Regenerate Graph**
 
-- A chart with rectangular bars representing different categories or values.
-- It is commonly used to compare values across different groups.
+      This option allow users to recreate or refresh the workflow, eventually resetting it to its initial state.
 
-.. image:: /_static/File_dependency/File_summary/Barchart.png
-   :width: 350px
-   :alt: Bar chart Screenshot
-   :align: center
-   :class: soft-edge
+      .. image:: /_static/File_dependency/Key_features/Regenerate_graph.png
+         :width: 400px
+         :alt: Regenerate Screenshot
+         :align: center
+         :class: soft-edge
 
-**3. Tree Map**
+.. dropdown:: 💾 **Save Graph**
 
-- A hierarchical chart that uses nested rectangles to represent different levels of data.
-- It is useful for visualizing hierarchical data structures.
+      This command enables users to save the current state of the workflow, preserving any changes or modifications made, by saving them to the database.
 
-.. image:: /_static/File_dependency/File_summary/Treechart.png
-   :width: 350px
-   :alt: Tree Map Screenshot
-   :align: center
-   :class: soft-edge
+.. dropdown:: ♻️ **Reset**
 
-Stats
-=======
+      The reset option restores the workflow to its original state, undoing any changes made without saving them to the database.
 
-It presents statistical data relevant to the current project.
 
-.. image:: /_static/File_dependency/File_summary/stats.png
-   :width: 200px
-   :alt: Stats Screenshot
-   :align: center
-   :class: soft-edge
+.. dropdown:: 📊 **File Summary**
 
-- **Block Stats** It could provide statistics about the code blocks within the project, such as the number of blocks, their complexity, 
-  and execution time.
+   This feature provides a comprehensive overview of file statistics, including numerical data, block information, and file complexity. It also offers visual representations of these metrics through various graphs and charts.
 
-.. image:: /_static/File_dependency/File_summary/Block_stats.png
-   :width: 350px
-   :alt: Stats Block Stats Screenshot
-   :align: center
-   :class: soft-edge
+   .. image:: /_static/File_dependency/File_summary/File_summary.png
+      :width: 200px
+      :alt: Summary Screenshot
+      :align: center
+      :class: soft-edge
+
+   - **File Stats**
+      - **Code Lines:** Total number of lines of code in the file/project.
+      - **Total Blocks:** Number of structured blocks like functions or classes.
+
+   - **Block Stats**
+      - **Processed Blocks:** This indicates the total number of code blocks that have been analyzed or executed.
+      - **Passed Blocks:** This shows the number of code blocks that have passed successfully without errors.
+      - **Errors:** This displays the number of errors encountered during the analysis or execution of the code blocks.
+      - **Failed Blocks:** This indicates the number of code blocks that have failed or encountered issues during processing.
+      - **Complexity:** This refers to a metric measuring the complexity of the code.
+
+   .. note::
+      Selecting a graph from the dropdown summary block displays the corresponding project data visually.
+
+   .. dropdown:: 📈 **Graphs**
+
+      It shows a list of available chart types that can be used to visualize data.
+
+      .. image:: /_static/File_dependency/File_summary/Graph.png
+         :width: 200px
+         :alt: Graphs Screenshot
+         :align: center
+         :class: soft-edge
+
+      **1. Pie Chart**
+
+      - A circular chart divided into segments, representing different categories or values.
+      - It is often used to show proportions or percentages of a whole.
+
+      .. image:: /_static/File_dependency/File_summary/Piechart.png
+         :width: 350px
+         :alt: Pie Chart Screenshot
+         :align: center
+         :class: soft-edge
+
+      **2. Bar Chart**
+
+      - A chart with rectangular bars representing different categories or values.
+      - It is commonly used to compare values across different groups.
+
+      .. image:: /_static/File_dependency/File_summary/Barchart.png
+         :width: 350px
+         :alt: Bar Chart Screenshot
+         :align: center
+         :class: soft-edge
+
+      **3. Tree Map**
+
+      - A hierarchical chart that uses nested rectangles to represent different levels of data.
+      - It is useful for visualizing hierarchical data structures.
+
+      .. image:: /_static/File_dependency/File_summary/Treechart.png
+         :width: 350px
+         :alt: Tree Map Screenshot
+         :align: center
+         :class: soft-edge
+
+   .. dropdown:: 📌 **Stats**
+
+      It presents statistical data relevant to the current project.
+
+      .. image:: /_static/File_dependency/File_summary/stats.png
+         :width: 200px
+         :alt: Stats Screenshot
+         :align: center
+         :class: soft-edge
+
+      - **Block Stats**: It could provide statistics about the code blocks within the project, such as the number of blocks, their complexity, and execution time.
+
+      .. image:: /_static/File_dependency/File_summary/Block_stats.png
+         :width: 350px
+         :alt: Stats Block Stats Screenshot
+         :align: center
+         :class: soft-edge
+
+
 
 Settings
 """""""""
@@ -410,8 +436,8 @@ It manages block visibility and relationships in the workflow.
 
 -  **Enable Animations:** It makes transitions between workflow states more fluid and visually enagaging.
 
-.. image:: /_static/File_dependency/Settings/Animation_settings.png
-   :width: 400px
-   :alt: Enable Animations Screenshot
+.. image:: _static/File_dependency/Settings/animation_gif.gif
+   :width: 600px
+   :alt: Enable Animations GIF
    :align: center
    :class: soft-edge
