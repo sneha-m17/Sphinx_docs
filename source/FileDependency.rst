@@ -31,7 +31,7 @@ Status of Files
 - They are often used to track the progress of files through a workflow.
 
 
-.. grid:: 2
+.. grid:: 3
    :gutter: 3
    :margin: 2
 
@@ -345,7 +345,7 @@ The command bar at the top of the workflow consists of the following -
       - **Complexity:** This refers to a metric measuring the complexity of the code.
 
    .. note::
-      Selecting a graph from the dropdown summary block displays the corresponding project data visually.
+      Selecting **summary**, **Graphs**, **Stats** from the dropdown displays the corresponding project data visually.
 
    .. dropdown:: 📈 **Graphs**
 
@@ -437,7 +437,7 @@ It manages block visibility and relationships in the workflow.
 -  **Enable Animations:** It makes transitions between workflow states more fluid and visually enagaging.
 
 .. image:: _static/File_dependency/Settings/animation_gif.gif
-   :width: 600px
+   :width: 800px
    :alt: Enable Animations GIF
    :align: center
    :class: soft-edge
